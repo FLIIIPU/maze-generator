@@ -17,7 +17,7 @@
 2. clone this repository:' git clone https://github.com/FLIIIPU/maze-generator'
 3. build and run the project
 
-you can also find a pre-compiled version in the [releases]
+you can also find a pre-compiled version in the [releases](https://github.com/FLIIIPU/maze-generator/releases)
 
 <--preview-->
 <img width="1231" height="1226" alt="Zrzut ekranu 2026-05-15 215700" src="https://github.com/user-attachments/assets/11fc8691-c2ba-43ab-8f1a-57542b3acc65" />
