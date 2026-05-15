@@ -64,7 +64,8 @@ void MazeManager::generateDFS() {
         }
     }
 }
-void MazeManager::braidmaze(float chance) {
+void MazeManager::braidmaze(int chance) {
+    float forrando = chance / 100.0f;
     std::random_device rando;
     std::mt19937 g(rando());
     std::uniform_real_distribution<float> distr(0.0f, 1.0f);
@@ -74,7 +75,7 @@ void MazeManager::braidmaze(float chance) {
     for (int y = 0; y < height; ++y) {
         for (int x = 0; x < width; ++x) {
             if (maze[y][x].wallCount() == deadEnd) {
-                if (distr(g) <= chance) {
+                if (distr(g) <= forrando) {
                     removeOneRandWall(x, y);
                 }
             }
